@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:singleLineTitle="false"
+    app:title="Zufällige Antworten">
+    <PreferenceCategory android:title="Fragen">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="randomAnswers"
+            android:title="Zufällige Antworten"
+            app:summary="Ändert jedes Mal die Reihenfolge der Antwortmöglichkeiten " />
+        <MultiSelectListPreference
+            android:defaultValue="@array/chapters_values"
+            android:entries="@array/chapters_entries"
+            android:key="chapterselection"
+            android:title="Kapitelauswahl"
+            app:entryValues="@array/chapters_values" />
+        <ListPreference
+            android:entries="@array/box_entries"
+            android:entryValues="@array/box_values"
+            android:key="boxselection"
+            android:title="Boxauswahl"
+            app:defaultValue="0" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Statistik">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="statistics"
+            android:title="Statistik anzeigen" />
+        <Preference
+            android:key="resetstatistics"
+            android:title="Statistik zurücksetzen"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Account">
+        <Preference
+        android:key="logout"
+        android:title="Ausloggen"
+        app:summary="Loggt Ihren aktuellen eLearning Account aus"/>
+        <Preference
+            android:id="@+id/resetsettings"
+            android:key="resetsettings"
+            android:title="Einstellungen zurücksetzen" />
+    </PreferenceCategory>
+</PreferenceScreen>

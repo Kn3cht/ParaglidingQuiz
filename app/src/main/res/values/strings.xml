@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Paragliding Quiz</string>
+
+    <string name="neveranswered">Nicht beantwortet</string>
+    <string name="answeredwrong">Falsch beantwortet</string>
+    <string name="randomquestions">Zufällige Fragen</string>
+    <string name="boxquestoins">Box Fragen</string>
+    <string name="toastallquestionanswered">Alle Fragen bereits beatnwortet</string>
+    <string name="toastallquestionsansweredcorrect">Alle Fragen bereits richtig beantwortet</string>
+    <string name="toasterror">Fehler</string>
+    <string name="settings">Einstellungen</string>
+
+    <string-array name="chapters_entries">
+        <item>Kapitel 1</item>
+        <item>Kapitel 2</item>
+        <item>Kapitel 3</item>
+        <item>Kapitel 4</item>
+        <item>Kapitel 5</item>
+    </string-array>
+    <string-array name="chapters_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="box_entries">
+        <item>Box 1</item>
+        <item>Box 2</item>
+        <item>Box 3</item>
+        <item>Box 4</item>
+    </string-array>
+    <string-array name="box_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="box_default">
+        Box 1
+    </string>
+    <string name="nextquestion">Nächste Frage ></string>
+    <string name="placeholder">Placeholder</string>
+    <string name="card_icon">card icon</string>
+    <string name="username">Username</string>
+    <string name="password">Passwort</string>
+    <string name="login">Login</string>
+    <string name="progress">Vortschritt</string>
+    <string name="answered">Beantwortet</string>
+    <string name="boxstatistics">Einteilung nach Boxen</string>
+    <string name="chapterselection">chapterselection</string>
+    <string name="reset">resetsettings</string>
+    <string name="correct">Richtig</string>
+</resources>

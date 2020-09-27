@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#025B97</color>
+    <color name="colorPrimaryDark">#024B8B</color>
+    <color name="colorAccent">#018BB5</color>
+
+    <color name="correct">#077451</color>
+    <color name="wrong">#C03B3B</color>
+    <color name="warning">#DE6600</color>
+    <color name="progress">#0377A4</color>
+    <color name="unanswered">#AFB3B1</color>
+    <color name="colorAccent2">#090A12</color>
+
+    <color name="selected">#23363C</color>
+    <color name="buttonPressed">#03313F</color>
+    <color name="buttonDefault">#14586B</color>
+
+    <!-- Box Questions -->
+    <color name="box_0">#C03B3B</color>
+    <color name="box_1">#A47C38</color>
+    <color name="box_2">#4B9248</color>
+    <color name="box_3">#24643B</color>
+</resources>
